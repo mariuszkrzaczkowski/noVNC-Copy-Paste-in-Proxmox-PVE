@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         noVNC Paste for Proxmox
+// @name         Copy/paste for noVNC console
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  Copy/paste clipboard text into a noVNC console viewer window (for use with Proxmox specifically)
 // @author       Mariusz Krzaczkowski
+// @license      MIT
 // @match        https://*
 // @include      /^.*novnc.*/
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
