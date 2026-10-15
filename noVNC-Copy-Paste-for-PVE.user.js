@@ -1,13 +1,18 @@
 // ==UserScript==
 // @name         Copy/paste for noVNC console
-// @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @namespace    https://github.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE
+// @version      1.0.1
 // @description  Copy/paste clipboard text into a noVNC console viewer window (for use with Proxmox specifically)
 // @author       Mariusz Krzaczkowski
 // @license      MIT
+// @homepageURL  https://github.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE
+// @supportURL   https://github.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE/issues
+// @source       https://github.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE
+// @updateURL    https://raw.githubusercontent.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE/main/noVNC-Copy-Paste-for-PVE.user.js
+// @downloadURL  https://raw.githubusercontent.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE/main/noVNC-Copy-Paste-for-PVE.user.js
 // @match        https://*
 // @include      /^.*novnc.*/
-// @require      http://code.jquery.com/jquery-3.3.1.min.js
+// @require      https://code.jquery.com/jquery-4.0.0.min.js#sha256=39a546ea9ad97f8bfaf5d3e0e8f8556adb415e470e59007ada9759dce472adaa
 // @grant        none
 // ==/UserScript==
 /* eslint-env jquery */
