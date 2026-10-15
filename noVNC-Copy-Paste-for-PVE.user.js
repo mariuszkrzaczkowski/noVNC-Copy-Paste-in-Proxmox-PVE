@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Copy/paste for noVNC console
+// @name         Copy/paste for PVE noVNC console 
 // @namespace    https://github.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE
 // @version      1.0.1
 // @description  Copy/paste clipboard text into a noVNC console viewer window (for use with Proxmox specifically)
@@ -77,7 +77,6 @@ const delay = 15
         })
     }
 
-    console.log("Starting.  ")
     $(document).ready(function () {
         console.log("Starting...... ")
         setTimeout(() => {
