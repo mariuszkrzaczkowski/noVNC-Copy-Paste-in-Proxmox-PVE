@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copy/paste for PVE noVNC console 
 // @namespace    https://github.com/mariuszkrzaczkowski/noVNC-Copy-Paste-in-Proxmox-PVE
-// @version      1.0.1
+// @version      1.0.2
 // @description  Copy/paste clipboard text into a noVNC console viewer window (for use with Proxmox specifically)
 // @author       Mariusz Krzaczkowski
 // @license      MIT
